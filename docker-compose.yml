@@ -1,7 +1,7 @@
 version: "3.8"
 
 services:
-  mysqldb:
+  mysql-db:
     container_name: mysqlsb
     image: mysql:8
     restart: on-failure
@@ -13,7 +13,7 @@ services:
       - $MYSQLDB_LOCAL_PORT:$MYSQLDB_DOCKER_PORT
 #    volumes:
 #      - db:/var/lib/mysql
-  trackr-app:
+  trackr-api:
     container_name: trackr-app
     depends_on:
       - mysqldb
