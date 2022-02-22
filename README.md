@@ -1,4 +1,4 @@
-# Docker Compose Spring Boot and MySQL example
+# TRAKR PROJECT -- BUILT WITH -> Docker Compose - Spring Boot - MySQL 
 
 ## Run the System
 We can easily run the whole with only a single command:
